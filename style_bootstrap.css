@@ -1,6 +1,6 @@
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
-.mySlides1 {display: none}
+.mySlides1 {display: block}
 img {vertical-align: middle;}
 
 
@@ -113,27 +113,9 @@ img {vertical-align: middle;}
     font-size: 24px;
     color: #fff;
   }
-
-
-
-
-  /* about team */
-  .team-container {
-    /* Style the team container */
-  }
-  
-  .dropdown {
-    /* Style the dropdown menu */
-  }
-  
-  .dropdown-content {
-    /* Style the dropdown content */
-  }
-  
-  .dropbtn {
-    /* Style the dropdown button */
-  }
-
-
-
-  
+.clock{
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline;
+}
