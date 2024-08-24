@@ -52,3 +52,45 @@ document.querySelectorAll('.dropbtn').forEach(button => {
       });
     }
   });
+
+
+
+  // 
+
+// Get the current year
+const currentYear = new Date().getFullYear();
+
+// Update the copyright year
+document.getElementById('dating').innerText = `Copyright ©️ ${currentYear}`;
+
+
+
+// Add a digital clock in WAT (UTC+1)
+setInterval(() => {
+  const currentTime = new Date();
+  const hours = (currentTime.getUTCHours() + 1) % 24; // Offset by 1 hour for WAT
+  const minutes = currentTime.getUTCMinutes();
+  const seconds = currentTime.getUTCSeconds();
+  document.getElementById('clock').innerText = `WAT ${hours}:${minutes}:${seconds}`;
+}, 1000);
+
+
+// rotating logo
+
+// Get the rotating logo element
+const rotatingLogo = document.querySelector('.rotating-logo');
+
+// Load the rotating logo image
+rotatingLogo.style.backgroundImage = "url('r-logo.png')";
+
+// Add animation to the rotating logo
+rotatingLogo.addEventListener('mouseover', () => {
+  rotatingLogo.style.transform = 'scale(1)';
+  rotatingLogo.style.animation = 'rotateLogo 5s linear infinite';
+});
+
+// Remove animation when mouse leaves
+rotatingLogo.addEventListener('mouseout', () => {
+  rotatingLogo.style.transform = 'scale(0)';
+  rotatingLogo.style.animation = 'none';
+});
