@@ -1,816 +1,129 @@
-<!DOCTYPE html>
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!-->
-<html lang="en">
-<!--<![endif]-->
-	<head>
-		<meta charset="utf-8">
-		<title>El-Elion</title>
-		<meta name="description" content="Responsive HTML5 Template">
-		<meta name="author" content="webthemez">
-
-		<!-- Mobile Meta -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="images/favicon.ico">
- 
-		<link href="bootstrap/css/bootstrap.css" rel="stylesheet"> 
-		<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet"> 
-		<link href="css/animations.css" rel="stylesheet"> 
-		<link href="css/style.css" rel="stylesheet"> 
-		<link href="css/custom.css" rel="stylesheet">
-		<link rel="stylesheet" href="style_bootstrap.css">
-	</head>
-
-	<body class="no-trans">
-	<section id="banner">
-		<!-- scrollToTop --> 
-		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
-
-		<!-- header start --> 
-		<header class="header fixed clearfix navbar navbar-fixed-top">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4"> 
-
-						<!-- header-left start --> 
-						<div class="header-left">
-
-							<!-- logo -->
-							<div class="logo smooth-scroll " >
-								<a href="#banner"><img id="logo" src="images/logo.png" alt="Worthy" class="logo_size"></a>
-								<!-- <div class="rotating_logo"></div> -->
-							</div>
-
-							<!-- name-and-slogan -->
-							<div class="logo-section smooth-scroll">
-								<div class="brand"><a href="#banner" ></a>
-								<p id="clock" class="clock"></p></div>								
-							</div>
-
-						</div>
-						<!-- header-left end -->
-
-					</div>
-					<div class="col-md-8">
-
-						<!-- header-right start --> 
-						<div class="header-right">
-
-							<!-- main-navigation start --> 
-							<div class="main-navigation animated">
-
-								<!-- navbar start --> 
-								<nav class="navbar navbar-default" role="navigation">
-									<div class="container-fluid">
-
-										<!-- Toggle get grouped for better mobile display -->
-										<div class="navbar-header">
-											<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-												<span class="sr-only">Toggle navigation</span>
-												<span class="icon-bar"></span>
-												<span class="icon-bar"></span>
-												<span class="icon-bar"></span>
-											</button>
-										</div>
-
-										<!-- Collect the nav links, forms, and other content for toggling -->
-										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
-											<ul class="nav navbar-nav navbar-right">
-												<li class="active"><a href="#banner">Home</a></li>
-												<!-- <li><a href="#services">Services</a></li> -->
-												<li><a href="#about">About</a></li>
-												
-												<li><a href="#outreach">Outreach</a></li>
-												<li><a href="#team">Our Team</a></li>
-												<li><a href="#contact">Contact us</a></li>
-											</ul>
-										</div>
-
-									</div>
-								</nav>
-								<!-- navbar end -->
-
-							</div>
-							<!-- main-navigation end -->
-
-						</div>
-						<!-- header-right end -->
-
-					</div>
-				</div>
-			</div>
-		</header>
-		<!-- header end -->
-		<!-- Carosel Start -->
-
-	
-
-		<div class="slideshow-container1">
-			<div class="mySlides1 fade1">
-			  <div class="numbertext1">1 / 3</div>
-			  <img class="all_images_in_project" src="images/banner.png" style="width:100%">
-			  <div class="text1"><h1 style="color: yellow;">We put smiles on Faces</h1></div>
-			  <!-- <div class="bottom-text">El-Elion</div> -->
-			</div>
-			<div class="mySlides1 fade1">
-				<div class="numbertext1">2 / 3</div>
-				<img class="all_images_in_project" src="images/banner1.png" style="width:100%">
-				<div class="text1"><h1 style="color: yellow;">Photo with Children </h1></div>
-				<!-- <div class="bottom-text">Meet our Dedicated Staffs</div> -->
-			  </div>
-			<div class="mySlides1 fade1">
-			  <div class="numbertext1">3 / 3</div>
-			  <img class="all_images_in_project" src="images/banner3.png" style="width:100%">
-			  <div class="text1"><h1 style="color: yellow;">Staffs After the programme</h1></div>
-			  <!-- <div class="bottom-text">Meet our Dedicated Staffs</div> -->
-			</div>
-			
-			
-			<a class="prev1" onclick="plusSlides(-1)">❮</a>
-			<a class="next1" onclick="plusSlides(1)">❯</a>
-		  </div>
-		  <br>
-		  <div style="text-align:center">
-			<span class="dot1" onclick="currentSlide(1)"></span>
-			<span class="dot1" onclick="currentSlide(2)"></span>
-			<span class="dot1" onclick="currentSlide(3)"></span>
-			
-		  </div>
-
-
-
-		<!-- Carousel End -->
-
-</section>
-<!-- section start --> 
-		<section class="section transprant-bg pclear secPadding" id="about">
-			<div class="container no-view" data-animation-effect="fadeIn">
-				<h1 id="services" class="title text-center">About us</h1>
-				<div class="space"></div>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="media block-list">
-							<div class="media-left">
-								<i class="fa fa-users"></i>
-							</div>
-							<div class="media-body">
-								<h3 class="media-heading">Who  we are</h3>
-								<blockquote>
-									<p>We are a non-profit organization dedicated to empowering the less privileged, particularly the girl child. Our mission is to improve their social status through sustainable microcredit, literacy advocacy, training, research, collaboration, and community participation. We provide vocational skills training, small grants, and loans to support economic empowerment. Our team is passionate about creating a more equitable society, and we believe that every individual deserves the opportunity to thrive. We focus on promoting education, economic independence, and social justice. Through our programs, we aim to make a positive impact on the lives of those we serve, promoting a brighter future for all. We strive to be a catalyst for change, bridging the gap between resources and opportunities for the less privileged, and empowering them to break the cycle of poverty</p>
-									
-								</blockquote>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="media block-list">
-							<div class="media-left">
-								<i class="fa fa-thumbs-o-up"></i>
-							</div>
-							<div class="media-body">
-								<h3 class="media-heading">What we do</h3>
-								<blockquote>
-									<p>We provide:
-										<ul>
-											<li>
-												Sustainable microcredit to support economic empowerment
-											<li> 
-												Literacy advocacy and training to promote education
-											</li>
-											<li> 
-												Vocational skills training for women, youths, and adolescent girls
-											</li>
-											<li> 
-												Research and collaboration to inform our programs 
-											</li>
-											<li>
-												Community participation and engagement to drive social change 
-											</li>
-											<li>
-												Networking opportunities among various stakeholders 
-											</li>
-											<li>
-												Small grants and loans to support self-help women's groups
-											</li>
-											<li>
-												Collaboration with government, NGOs, and private donors to advance our mandate and other relevant women's development programs
-											</li>
-										</li>
-										</ul>
-
-									</p>
-									
-								</blockquote>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="media block-list">
-							<div class="media-left">
-								<i class="fa fa-heart-o"></i>
-							</div>
-							<div class="media-body">
-								<h3 class="media-heading">Our goals</h3>
-								<blockquote>
-									<p>Our ultimate goal is to improve the social status of the less privileged and girl child through sustainable economic empowerment, education, and skills development, leading to a more equitable and just society.</p>
-									
-								</blockquote>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-			</div>			  
-		</section>
-	
-
-
-
-		
-		<section class="section clearfix no-view secPadding" data-animation-effect="fadeIn">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h1 id="about" class="title text-center"><span>El-Elion Transformantion Foundation</span></h1>
-						<p class="lead text-center">Our History of the foundation.</p>
-						<div class="space"></div>
-						<div class="row">
-							<div class="col-md-6">
-								<img class="all_images_in_project" src="images/logo.png" alt="" style="height: 350px; width: 350px;">
-								<div class="space"></div>
-							</div>
-							<div class="col-md-6">
-								<p>
-									The El-Elion Transformantion Foundation (ETF) was established in 2025 as women developement empowerment cooperstive society register with the Coperatate society with the sole aim ofassisting the less privilege women and "Adolescent Girls" in our environment and beyoundin the area of education, livelihood generating activities, traing or informaing the girls of their potentials in the society</p>
-								<p>
-								
-
-								</p>
-							
-							</div>
-						</div>
-						<div class="space"></div>
-						
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- section end -->
- 
-		
-
-		<!-- section start --> 
-		<section class="section secPadding">
-			<div class="container">
-				<h1 class="text-center title" id="outreach">Outreach</h1>
-				<div class="separator"></div>
-				<p class="lead text-center"> Our  Selfless service and love for humanity is what gives us joy</p>
-				<br>			
-				<div class="row no-view" data-animation-effect="fadeIn">
-					<div class="col-md-12">
-
-						<!-- isotope filters start -->
-						<div class="filters text-center">
-							<ul class="nav nav-pills">
-								<li class="active"><a href="#" data-filter="*">All</a></li>
-								<li><a href="#" data-filter=".girl_child" class="disabled">Girl Child</a></li>
-								<li><a href="#" data-filter=".women">Women</a></li>
-								<li><a href="#" data-filter=".disabled">Disabled</a></li>
-							</ul>
-						</div>
-						<!-- isotope filters end -->
-
-						<!-- portfolio items start -->
-						<div class="isotope-container row grid-space-20">
-							<div class="col-sm-6 col-md-3 isotope-item girl_child">
-								<div class="image-box">
-									<div class="overlay-container">
-										<img class="all_images_in_project" src="images/PHOTO-3.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#project-1">
-											<i class="fa fa-search-plus"></i>
-											 
-										</a>
-									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-1">The CEO With the Women</a>
-								</div>
-								<!-- Modal -->
-								<div class="modal fade" id="project-1" tabindex="-1" role="dialog" aria-labelledby="project-1-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-												<h4 class="modal-title" id="project-1-label">The CEO with women</h4>
-											</div>
-											<div class="modal-body">
-												
-												<div class="row">												 
-													<div class="col-md-12">
-														<img class="all_images_in_project" src="images/PHOTO-3.jpg" alt="">
-														<br/>
-														<h3>CEO with the Women</h3>
-														<p>The ETF hosted a program focused on empowering women for a brighter future, with a primary emphasis on Empowerment of the Girl child.
-														The program delved into various aspects, including raising awareness about the significance of educating girls, showcasing notable women achievers in Nigeria, stressing the importance of financial preparedness for our children's future, advocating for better opportunities to secure a brighter future for girls, promoting family planning to ensure responsible parenthood, and advocating for equal opportunities for both male and female children.</p>
-													</div>
-												</div>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Modal end -->
-							</div>
-
-							<div class="col-sm-6 col-md-3 isotope-item women">
-								<div class="image-box">
-									<div class="overlay-container">
-										<img class="all_images_in_project" src="images/addressing.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#project-2">
-											<i class="fa fa-search-plus"></i>
-											 
-										</a>
-									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Adressing women</a>
-								</div>
-								<!-- Modal -->
-								<div class="modal fade" id="project-2" tabindex="-1" role="dialog" aria-labelledby="project-2-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-												<h4 class="modal-title" id="project-2-label">Project Title</h4>
-											</div>
-											<div class="modal-body">
-												
-												<div class="row">												 
-													<div class="col-md-12">
-														<img class="all_images_in_project" src="images/addressing.jpg" alt="" style="width:100%;">
-														<br/>
-														<h3>Project Description</h3>
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt.</p>
-													</div>
-												</div>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Modal end -->
-							</div>
-							
-							<div class="col-sm-6 col-md-3 isotope-item girl_child">
-								<div class="image-box">
-									<div class="overlay-container">
-										<img class="all_images_in_project" src="images/PHOTO-5.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#project-3">
-											<i class="fa fa-search-plus"></i> 
-										</a>
-									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-3">ETF CEO</a>
-								</div>
-								<!-- Modal -->
-								<div class="modal fade" id="project-3" tabindex="-1" role="dialog" aria-labelledby="project-3-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-												<h4 class="modal-title" id="project-3-label">Project checkking</h4>
-											</div>
-											<div class="modal-body">
-												
-												<div class="row">												 
-													<div class="col-md-12">
-														<img class="all_images_in_project" src="images/PHOTO-5" alt="">
-														<br/>
-														<h3>CEO/h3>
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt.</p>
-													</div>
-												</div>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Modal end -->
-							</div>
-							
-							
-							
-					
-							
-						
-							
-							<div class="col-sm-6 col-md-3 isotope-item disabled">
-								<div class="image-box">
-									<div class="overlay-container">
-										<img class="all_images_in_project" src="images/photo-4.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#project-7">
-											<i class="fa fa-search-plus"></i>
-											<span>Site Building</span>
-										</a>
-									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-7">Group Photo after Maeeting</a>
-								</div>
-								<!-- Modal -->
-								<div class="modal fade" id="project-7" tabindex="-1" role="dialog" aria-labelledby="project-7-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-												<h4 class="modal-title" id="project-7-label">Group Photo After a Meeting</h4>
-											</div>
-											<div class="modal-body">
-												
-												<div class="row">												 
-													<div class="col-md-12">
-														<img class="all_images_in_project" src="images/photo-4.jpg" alt="">
-														<br/>
-														<h3>Group Photo After a Meeting</h3>
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt.</p>
-													</div>
-												</div>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Modal end -->
-							</div>
-							
-							
-
-							
-
-							
-
-						
-
-					
-
-						</div>
-						<!-- portfolio items end -->
-					
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- section end -->
-<!-- section start --> 
-		<section class="default-bg secPadding">
-			
-<div class="container">
-  <div class="row">
-    <div class='col-md-offset-2 col-md-8 text-center'>
-    <h2>Faces ETF have put smiles on</h2>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='col-md-offset-2 col-md-8'>
-      <div class="carousel slide" data-ride="carousel" id="quote-carousel">
-        <!-- Bottom Carousel Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
-          <li data-target="#quote-carousel" data-slide-to="1"></li>
-          <li data-target="#quote-carousel" data-slide-to="2"></li>
-        </ol>
-        
-        <!-- Carousel Slides / Quotes -->
-        <div class="carousel-inner">
-        
-          <!-- Quote 1 -->
-          <div class="item active">
-            <blockquote>
-              <div class="row">
-                <div class="col-sm-3 text-center">
-                  <img class="img-circle" src="images/IMG_2176.JPG" style="width: 100px;height:100px;">
-                </div>
-                <div class="col-sm-9">
-                  <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
-                  <small>Grace Dikko</small>
-                </div>
-              </div>
-            </blockquote>
-          </div>
-          <!-- Quote 2 -->
-          <div class="item">
-            <blockquote>
-              <div class="row">
-                <div class="col-sm-3 text-center">
-                  <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/mijustin/128.jpg" style="width: 100px;height:100px;">
-                </div>
-                <div class="col-sm-9">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
-                  <small>Grace Dikko</small>
-                </div>
-              </div>
-            </blockquote>
-          </div>
-          <!-- Quote 3 -->
-          <div class="item">
-            <blockquote>
-              <div class="row">
-                <div class="col-sm-3 text-center">
-                  <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/keizgoesboom/128.jpg" style="width: 100px;height:100px;">
-                </div>
-                <div class="col-sm-9">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</p>
-                  <small>Grace Dikko</small>
-                </div>
-              </div>
-            </blockquote>
-          </div>
-        </div>              
-      </div>                          
-    </div>
-  </div>
-</div>
-		</section>
-
-		<section id="team" class="page-section">
-			<div class="container">
-				<div class="heading text-center">
-					<!-- Heading -->
-					<h2>Our Team</h2>
-					<p>Meet our esteemend and passionate staffs who put efforts to make the foundation continue to succeed</p>
-				</div>
-				<!-- Team Member's Details -->
-				<div class="team-content">
-					<div class="row">
-						<!-- Team Member 1 -->
-						<div class="col-md-3 col-sm-6 col-xs-6">
-							<div class="team-member pDark">
-								<div class="member-img">
-									<img class="img-responsive" src="images/team1.png" alt="">
-								</div>
-								<h4>Mummy Dikko</h4>
-								<span class="pos">CEO</span>
-								<br>
-								<!-- Button to trigger modal -->
-								<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#member1Modal">
-									Read More
-								</button>
-							</div>
-							<br>
-						</div>
-		
-						<!-- Team Member 2 -->
-						<div class="col-md-3 col-sm-6 col-xs-6">
-							<div class="team-member pDark">
-								<div class="member-img">
-									<img class="img-responsive" src="images/bekky.jpg" alt="" >
-								</div>
-								<h4>Mrs. Bekky Benson </h4>
-								<span class="pos">Project Manager</span>
-								<br>
-								<!-- Button to trigger modal -->
-								<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#member2Modal">
-									Read More
-								</button>
-							</div>
-							<br>
-						</div>
-		
-						<!-- Team Member 3 -->
-						<div class="col-md-3 col-sm-6 col-xs-6">
-							<div class="team-member pDark">
-								<div class="member-img">
-									<img class="img-responsive" src="images/hannatu.jpg" alt="">
-								</div>
-								<h4>Hanna Dikko</h4>
-								<span class="pos">Projet Coordinator</span>
-								<br>
-								<!-- Button to trigger modal -->
-								<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#member3Modal">
-									Read More
-								</button>
-							</div>
-						</div>
-		
-						<!-- Team Member 4 -->
-						<div class="col-md-3 col-sm-6 col-xs-6">
-							<div class="team-member pDark">
-								<div class="member-img">
-									<img class="img-responsive" src="images/favour.jpg" alt="" ">
-								</div>
-								<h4>Favour Dikko</h4>
-								<span class="pos">Community Dev Officer</span>
-								<br>
-								<!-- Button to trigger modal -->
-								<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#member4Modal">
-									Read More
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--/.container-->
-		</section>
-		
-		<!-- Modals -->
-		<!-- Modal 1 -->
-		<div class="modal fade" id="member1Modal" tabindex="-1" role="dialog" aria-labelledby="member1ModalLabel">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="member1ModalLabel">John Doe</h4>
-					</div>
-					<div class="modal-body">
-						<!-- Content about Mrs Dikko -->
-						Jannet Dikko is the CEO of our company, with over 20 years of experience in the industry...
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<!-- Modal 2 -->
-		<div class="modal fade" id="member2Modal" tabindex="-1" role="dialog" aria-labelledby="member2ModalLabel">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="member2ModalLabel">Mrs. Bekky Benson</h4>
-					</div>
-					<div class="modal-body">
-						<!-- Content about Mrs Benson -->
-						 Mrs. Bekky Benson is the Project Manager at El Elion Transformation Foundation (ETF). She studied Catering and Pastry at Amsterdam Science Park and attended The London School of English. 
-						 At ETF, she has successfully led the Entrepreneurship Skills Training Program, empowering women and young girls with the knowledge and skills to start and sustain their own businesses. Her dedication and leadership continue to make a positive impact on the communities ETF serves.
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<!-- Modal 3 -->
-		<div class="modal fade" id="member3Modal" tabindex="-1" role="dialog" aria-labelledby="member3ModalLabel">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="member3ModalLabel">Hannatu Dikko Ibrahim </h4>
-					</div>
-					<div class="modal-body">
-						<!-- Content about Hannatu Dikko Ibrahim  -->
-						Hannatu Dikko Ibrahim is the Program Coordinator at El Elion Transformation Foundation (ETF). She holds a BSc in Biology and has extensive experience in education, complemented by a certificate in NGO management. In her role, Hannatu plays a pivotal part in shaping and implementing the foundation’s programs.
-						Before joining ETF, Hannatu worked as a Basic Science and Biology teacher, where she gained a deep understanding of the educational challenges faced by young girls. Her experience in education, combined with a strong passion for community service, naturally led her to ETF. She now oversees the development and execution of programs aimed at empowering women and children, making a significant impact in the communities ETF serves.
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<!-- Modal 4 -->
-		<div class="modal fade" id="member4Modal" tabindex="-1" role="dialog" aria-labelledby="member4ModalLabel">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="member4ModalLabel">Favour Ibrahim </h4>
-					</div>
-					<div class="modal-body">
-						<!-- Content about Joan Ray -->
-						 Favour Ibrahim serves as the Community Development Officer at El Elion Transformation Foundation (ETF). With a BSc degree in Community Medicine and Public Health From Bingham University Nigeria,  Favour brings a wealth of experience and expertise to the organization.
-						 Favour's extensive background in community medicine has provided her with a profound understanding of public health issues and the strategies necessary to address them effectively. Prior to joining ETF, she worked with various public health initiatives and non-profit organizations, where she led projects focused on improving health outcomes, promoting environmental sustainability, and empowering underserved communities.
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div>
-				</div>
-			</div>
-		</div>
-		<br>
-		<br>
-		<br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		<!-- section end -->
-	
-		
-
-		<!-- footer start --> 
-		<footer id="footer">
-
-			<!-- .footer start --> 
-			<div class="footer section">
-				<div class="container">
-					<h1 class="title text-center" id="contact">Contact Us</h1>
-					<div class="space"></div>
-					<div class="row">
-						
-						<div class="col-sm-6">
-							<div class="footer-content">
-								<form role="form" id="footer-form">
-									<div class="form-group has-feedback">
-										<label class="sr-only" for="name2">Name</label>
-										<input type="text" class="form-control" id="name2" placeholder="Name" name="name2" required>
-										<i class="fa fa-user form-control-feedback"></i>
-									</div>
-									<div class="form-group has-feedback">
-										<label class="sr-only" for="email2">Email address</label>
-										<input type="email" class="form-control" id="email2" placeholder="Enter email" name="email2" required>
-										<i class="fa fa-envelope form-control-feedback"></i>
-									</div>
-									<div class="form-group has-feedback">
-										<label class="sr-only" for="message2">Message</label>
-										<textarea class="form-control" rows="8" id="message2" placeholder="Message" name="message2" required></textarea>
-										<i class="fa fa-pencil form-control-feedback"></i>
-									</div>
-									<input type="submit" value="Send" class="btn btn-default">
-								</form>
-							</div>
-						</div>
-						
-						<div class="col-sm-6">
-							<div class="footer-content">
-								
-
-							<div class="widget-content">
-
-								<p>We are located at Outsckirtch of Nasarawa state Nigeria. Boardering the the Federal Capital City of Abuja <strong style="color: greenyellow;">@</strong></p><br/>
-
-								<p class="contacts"><i class="fa fa-map-marker"></i> Behind Ramat Suites Hotel, New Nyanya, Karu LGA Nasarawa State</p>
-
-								<p class="contacts"><i class="fa fa-phone"></i> +2349037991521</p>
-
-								<p class="contacts"><i class="fa fa-envelope"></i> etfoundation.org@gmail.com</p>
-							<span><p>Follow us on Facebook</p> 
-							
-								<ul class="social-links">
-									<li class="facebook social-links"><a target="_blank" href="https://www.facebook.com/profile.php?id=100067515776128&mibextid=LQQJ4d"><i class="fa fa-facebook"></i></a></li>
-								</ul>
-
-							</span>
-
-							
-
-							</div>
-
-						</aside>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- .footer end -->
-
-			<!-- .subfooter start --> 
-			<div class="subfooter">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<span><p class="text-center" id="dating"></p> <p>Designed by <a target="_blank" href="http://www.thearkforsaintschurch.com/cv.github.io/">Aidoko.tech</a>.</p></span>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- .subfooter end -->
-
-		</footer>
-		<!-- footer end -->
-
-		<!-- JavaScript --> 
-		 <!-- <script src="ss_bootstrap.js" ></script> -->
-		  <script src="index.js" ></script>
-		<script type="text/javascript" src="plugins/jquery.min.js"></script>
-		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="plugins/modernizr.js"></script>
-		<script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
-		<script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
-		<script type="text/javascript" src="plugins/jquery.appear.js"></script>
-
-		<!-- Custom Scripts -->
-		<script type="text/javascript" src="js/custom.js"></script>
-
-	</body>
-</html>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides1 {display: block}
+img {vertical-align: middle;}
+
+
+
+/* Slideshow container */
+.slideshow-container1 {
+    max-width: 100vw;
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev1, .next1 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+
+/* Position the "next button" to the right */
+.next1 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev1:hover, .next1:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text1 {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext1 {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+
+
+
+
+
+.dot1 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active1, .dot1:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade1 {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev1, .next1,.text1 {font-size: 11px}
+  }
+
+  /* body{
+    background-image: url('images/portfolio-1.jpg');
+    background-size: cover;
+    background-position: center;
+  } */
+
+
+  .bottom-text {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+  }
+.clock{
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline;
+}
+
+
+
+
+  .all_images_in_project{
+    height: 100%;
+    width: 100%;
+  }
